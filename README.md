@@ -22,10 +22,11 @@
 2. cd twittero
 3. adjust database.yml
 4. bundle install
-5. bundle exec rake db:migrate
-6. bundle exec rake db:seed
-7. rails test
-8. rails server
-9. surf localhost:3000
+5. bundle exec rake db:create
+6. bundle exec rake db:migrate
+7. bundle exec rake db:seed
+8. rails test
+9. rails server
+10. surf localhost:3000
 
 ```
